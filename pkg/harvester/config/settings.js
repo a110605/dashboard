@@ -49,7 +49,7 @@ export const HCI_ALLOWED_SETTINGS = {
   [HCI_SETTING.AUTO_ROTATE_RKE2_CERTS]:  { kind: 'json', from: 'import' },
   [HCI_SETTING.CSI_DRIVER_CONFIG]:       { kind: 'json', from: 'import' },
   [HCI_SETTING.SERVER_VERSION]:          { readOnly: true },
-  [HCI_SETTING.UPGRADE_CHECKER_ENABLED]: { kind: 'boolean' },
+  [HCI_SETTING.UPGRADE_CHECKER_ENABLED]: { kind: 'boolean', previewFeature: true },
   [HCI_SETTING.UPGRADE_CHECKER_URL]:     { kind: 'url' },
   [HCI_SETTING.HTTP_PROXY]:              { kind: 'json', from: 'import' },
   [HCI_SETTING.ADDITIONAL_CA]:           {
