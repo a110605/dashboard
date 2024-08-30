@@ -1,11 +1,31 @@
 pull_request_rules:
-  - name: backport to v1.4
+  - name: Automatically open backport PR to v1.4
     conditions:
       - base=master
       - label=require-backport-v1.4
     actions:
       backport:
         branches:
-          - "andy-release-harvester-v1.4"
+          - "release-harvester-v1.4"
         assignees:
           - "{{ author }}"
+        labels:
+          - "backport PR to v1.4"
+
+  - name: Automatically merge bot's v1.4 PRs
+    conditions:
+      - base=release-harvester-v1.4
+      - author=mergify[bot]
+      - label="backport PR to v1.4"
+    actions:
+      merge:
+        method: rebase
+
+  - name: Automatically approve bot's v1.4 PRs
+    conditions:
+      - base=release-harvester-v1.4
+      - author=mergify[bot]
+      - label="backport PR to v1.4"
+    actions:
+      review:
+        type: APPROVE
