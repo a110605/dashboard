@@ -970,7 +970,7 @@ harvester:
     cidr:
       label: CIDR/IP Range
       invalid: '"CIDR/IP Range" is invalid.'
-      toolTip: "We can apply multiple pools or ranges by seperating them with commas. i.e. 192.168.0.200/30,192.168.0.200/29 or 192.168.0.10-192.168.0.11"
+      toolTip: "We can apply multiple pools or ranges by separating them with commas. i.e. 192.168.0.200/30,192.168.0.200/29 or 192.168.0.10-192.168.0.11"
     add:
       label: Add IP Pools
 
