@@ -1,0 +1,11 @@
+pull_request_rules:
+  - name: backport to v1.4
+    conditions:
+      - base=master
+      - label="require-backport-v1.4"
+    actions:
+      backport:
+        branches:
+          - "andy-release-harvester-v1.4"
+        assignees:
+          - "{{ author }}"
