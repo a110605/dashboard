@@ -991,7 +991,7 @@ harvester:
         suffix: 'addon at first.'
       diabledAlertingTips:
         prefix: 'You must enable'
-        middle: 'Alertmanager'
+        middle: 'Alert-manager'
         suffix: 'for configs to take effect.'
       disabledAddon:
         prefix: 'Monitoring Addon is disabled now, click'
