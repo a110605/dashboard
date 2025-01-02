@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["pages/c/_cluster/_product/projectsnamespaces"],{fdba:function(e,s,c){"use strict";c.r(s);var r=function(){var e=this,s=e._self._c;return s("ExplorerProjectsNamespaces",e._b({},"ExplorerProjectsNamespaces",e.$attrs,!1))},a=[],t=c("2aed"),o={components:{ExplorerProjectsNamespaces:t["a"]}},p=o,n=c("0c7c"),l=Object(n["a"])(p,r,a,!1,null,null,null);s["default"]=l.exports}}]);
+//# sourceMappingURL=projectsnamespaces.7e446dbd.js.map

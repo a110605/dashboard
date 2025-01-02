@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["pages/c/_cluster/_product/_resource/index"],{"28fa":function(e,s,c){"use strict";c.r(s);var n=function(){var e=this,s=e._self._c;return s("ResourceList")},t=[],u=c("188f"),r={name:"ClusterResourcedList",components:{ResourceList:u["a"]}},o=r,a=c("0c7c"),i=Object(a["a"])(o,n,t,!1,null,null,null);s["default"]=i.exports}}]);
+//# sourceMappingURL=index.385bb16f.js.map
