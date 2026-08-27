@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkdashboard"]=self["webpackChunkdashboard"]||[]).push([[3048],{63048(e,t,a){a.r(t),a.d(t,{default:()=>i});var r=a(30294);function n(e,t,a,n,c,o){const s=(0,r.g2)("ResourceDetail");return(0,r.uX)(),(0,r.Wv)(s,{"parent-route-override":"c-cluster-fleet-application"})}var c=a(57371);const o={name:"FleetApplicationViewEditPage",components:{ResourceDetail:c.A}};var s=a(66262);const u=(0,s.A)(o,[["render",n]]),i=u}}]);
-//# sourceMappingURL=3048.a5672c52.js.map

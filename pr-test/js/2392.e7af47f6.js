@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkdashboard"]=self["webpackChunkdashboard"]||[]).push([[2392],{12392(e,r,s){s.r(r),s.d(r,{default:()=>o});var t=s(30294),a=s(77780),c=s(45848);const h={render(){return(0,t.h)("div")},beforeCreate(){const e=!!this.$store.getters["management/schemaFor"](c.Mc.SETTING);return this.$router.replace({name:"c-cluster-product-resource",params:{...this.$route.params,product:a.NAME,resource:e?c.Mc.SETTING:c.Mc.FEATURE},hash:this.$route.hash})}},u=h,o=u}}]);
+//# sourceMappingURL=2392.e7af47f6.js.map

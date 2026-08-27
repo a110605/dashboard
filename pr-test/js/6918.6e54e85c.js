@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkdashboard"]=self["webpackChunkdashboard"]||[]).push([[6918],{26918(e,r,u){u.r(r),u.d(r,{default:()=>d});var s=u(30294);function o(e,r,u,o,t,c){const a=(0,s.g2)("ResourceDetail");return(0,s.uX)(),(0,s.Wv)(a,{"resource-override":t.resource},null,8,["resource-override"])}var t=u(46265);const c={name:"RouteReceiverCreate",components:{ResourceDetail:t.A},data(){return{resource:null}},created(){this.resource=this.$route.query.resource}};var a=u(66262);const n=(0,a.A)(c,[["render",o]]),d=n}}]);
+//# sourceMappingURL=6918.6e54e85c.js.map
